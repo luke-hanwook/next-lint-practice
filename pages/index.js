@@ -1,7 +1,7 @@
+import React from "react";
+
 function Index() {
-  const a = 1;
-  a = 2;
-  return <div>hello next.js</div>;
+  return <div>hello next.js</div>
 }
 
-export default Index;
+export default Index
