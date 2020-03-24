@@ -25,7 +25,7 @@ module.exports = {
     ],
     "rules": {
     },
-    "ignorePatterns": ["!.eslintrc.js"],
+    // "ignorePatterns": ["!.eslintrc.js"],
     "settings": {
         "react": {
             "version": "detect"
