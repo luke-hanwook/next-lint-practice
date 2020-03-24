@@ -1,5 +1,7 @@
 function Index() {
-  return <div>hello next.js</div>
+  const a = 1;
+  a = 2;
+  return <div>hello next.js</div>;
 }
 
-export default Index
+export default Index;
