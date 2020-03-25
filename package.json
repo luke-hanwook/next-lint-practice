@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "lint": "eslint **/*.js --fix"
+    "lint": "eslint pages/*.js --fix"
   },
   "keywords": [],
   "author": "",
@@ -30,7 +30,7 @@
     }
   },
   "lint-staged": {
-    "*.js": [
+    "pages/*.js": [
       "eslint --fix"
     ]
   }
