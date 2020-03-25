@@ -5,7 +5,7 @@
   "main": "index.tsx",
   "scripts": {
     "dev": "next",
-    "lint": "eslint **/*.js --fix"
+    "lint": "eslint **/*.tsx --fix"
   },
   "keywords": [],
   "author": "",
