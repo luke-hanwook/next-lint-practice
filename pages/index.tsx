@@ -4,9 +4,9 @@ import Link from "next/link";
 function Index() {
   return (
     <>
-      <Link><a>about</a>
+      <Link href="/about"><a>about</a>
       </Link>
-      <div>hello next.js</div>
+      <div>index page</div>
     </>
   );
 }
