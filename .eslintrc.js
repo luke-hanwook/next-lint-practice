@@ -2,12 +2,11 @@ module.exports = {
     "env": {
         "browser": true,
         "es6": true,
-        "node": true
     },
     "extends": [
         "eslint:recommended",
         "plugin:react/recommended",
-        // "plugin:prettier/recommended"
+        "plugin:prettier/recommended"
     ],
     "globals": {
         "Atomics": "readonly",
@@ -25,7 +24,6 @@ module.exports = {
     ],
     "rules": {
     },
-    // "ignorePatterns": ["!.eslintrc.js"],
     "settings": {
         "react": {
             "version": "detect"

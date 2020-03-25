@@ -30,7 +30,7 @@
     }
   },
   "lint-staged": {
-    "pages/*.js": [
+    "*.js": [
       "eslint --fix"
     ]
   }
