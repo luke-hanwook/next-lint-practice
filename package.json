@@ -2,7 +2,7 @@
   "name": "next-lint-practice",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
     "dev": "next",
     "lint": "eslint **/*.js --fix"
